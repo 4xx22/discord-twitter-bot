@@ -50,7 +50,6 @@ class Webhook():
             att["title_link"] = attachment.title_link
             att["image_url"] = attachment.image_url
             att["footer"] = attachment.footer
-            att["footer_icon"] = attachment.footer_icon
             att["ts"] = attachment.ts
 
             att["fields"] = []
